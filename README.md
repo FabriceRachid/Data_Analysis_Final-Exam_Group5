@@ -42,4 +42,4 @@ A basic understanding of Python and data analysis concepts is recommended to ful
 
 Conclusion
 
-This analysis identifies that BMI, blood pressure, cholesterol, glucose levels, physical activity, diet, smoking habits, age, and socioeconomic factors are associated with diabetes risk. These findings directly answer the research question by highlighting the main health and lifestyle factors contributing to diabetes in this dataset. Results are illustrative for academic purposes and do not imply causation.
+This analysis identifies that Body Mass Index (BMI), blood pressure, cholesterol, glucose levels, physical activity, diet, smoking habits, age, and socioeconomic factors are closely associated with diabetes risk. These results highlight the key health and lifestyle factors influencing diabetes in this dataset. They are intended for illustrative and academic purposes and do not imply causation.
