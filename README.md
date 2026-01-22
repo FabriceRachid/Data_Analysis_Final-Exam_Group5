@@ -1,45 +1,53 @@
 # Data_Analysis_Final-Exam_Group5
 
-Introduction
+## Introduction
 
-This project analyzes a health dataset to identify key risk factors associated with diabetes. Using Python and standard data analysis techniques, the study examines health indicators, lifestyle behaviors, medical history, and demographic characteristics in order to uncover meaningful patterns related to diabetes risk. The project is conducted for academic purposes and illustrates practical skills in data preprocessing, analysis, and interpretation.
+This project analyzes a health dataset to identify factors associated with diabetes risk. Using Python and standard data analysis techniques, it examines health indicators, lifestyle behaviors, medical history, and demographic characteristics. The project is conducted for academic purposes and demonstrates practical skills in data preprocessing, analysis, and interpretation.
 
-I. Problem Statement
 
-Diabetes is a major public health concern influenced by multiple factors. This project aims to identify and analyze factors associated with diabetes prevalence by exploring structured data related to health conditions, lifestyle habits, medical background, and demographic variables. The objective is to highlight patterns that may contribute to diabetes risk within a population.
+## I. Problem Being Solved
 
-II. Object-Oriented Design
+Diabetes is a major public health issue influenced by multiple health, lifestyle, and demographic factors. This project focuses on analyzing a structured health dataset to identify variables associated with diabetes prevalence. The objective is to explore patterns in health indicators, behaviors, and demographic data that may be linked to diabetes risk within a population.
 
-The project is structured to ensure clarity, consistency, and reusability. The target variable is binary and represents diabetes status, where 0 indicates no diabetes and 1 indicates the presence of diabetes. The features used in the analysis are grouped into health indicators such as BMI, blood pressure, cholesterol, and glucose level, lifestyle factors including physical activity, smoking habits, and diet, medical history variables such as previous conditions and family history, and demographic information including age, gender, and socioeconomic status. Categorical variables are encoded into binary values to ensure compatibility with statistical analysis and modeling techniques. Raw data is cleaned and preprocessed before being passed to the analysis and visualization components.
 
-III. How to Run the Project
+## II. Object-Oriented Design
 
-The project can be executed in two ways. In interactive mode, the Jupyter Notebook allows users to run the analysis step by step and directly visualize the results. In non-interactive mode, the main Python script can be executed from the command line, which is suitable for automated execution. Before running the project, Python must be installed and all required libraries should be installed using the provided requirements file. The environment setup should then be verified to ensure proper execution.
+The project follows an object-oriented design to ensure clarity, modularity, and reusability. Classes are used to represent core components such as data loading, preprocessing, analysis, and visualization. Objects created from these classes manage tasks including data cleaning, feature encoding, statistical analysis, and result visualization.
 
-IV. Assumptions and Design Decisions
+The target variable is binary, where 0 represents the absence of diabetes and 1 represents the presence of diabetes. Input features include health indicators (BMI, blood pressure, cholesterol, glucose levels), lifestyle factors (physical activity, diet, smoking habits), medical history variables, and demographic information (age and socioeconomic status). Relationships between objects allow processed data to flow logically through each stage of the analysis.
 
-Several assumptions and methodological decisions guide this project. Missing values are handled using appropriate statistical techniques, and outliers are treated based on their impact on the analysis results. Feature engineering focuses on selecting variables that are relevant to diabetes risk and applying transformations to improve interpretability. The analysis strategy combines exploratory data analysis with descriptive statistics, and visualizations are used to clearly illustrate relationships between variables. It is assumed that the dataset is representative of the studied population, that correlation does not imply causation, and that the data quality is sufficient for academic analysis.
 
-V. Dataset Overview
+## III. How to Run the Program
 
-The dataset used in this project is a real-world health dataset containing medical, lifestyle, and demographic variables. It provides summary statistics of key features and shows the distribution of the diabetes target variable, offering a general understanding of the data before detailed analysis.
+The project is developed and executed using **Visual Studio Code**. All analyses are performed through Python scripts that can be run from the VS Code integrated terminal.
 
-VI. Analysis Structure Breakdown
+**Steps to run the project:**
 
-The analysis follows a logical workflow that begins with data loading and preprocessing, followed by exploratory data analysis and feature engineering. Visualization and interpretation are then performed to extract insights, and the process concludes with a summary of the main findings.
+1. Install Python on your system.
+2. Open the project folder in Visual Studio Code.
+3. Open the integrated terminal in VS Code.
+4. Install the required dependencies:
 
-VII. Key Findings Summary
+```bash
+pip install -r requirements.txt
+```
 
-The analysis identifies major health-related factors associated with diabetes, particularly indicators linked to physical condition and medical history. Lifestyle behaviors also show a significant association with diabetes prevalence. Additionally, age and socioeconomic factors appear to influence diabetes risk within the dataset.
+5. Run the main Python script:
 
-VIII. Project Structure
+```bash
+python main.py
+```
 
-The project is organized into clearly structured folders that separate raw data, processed data, notebooks, scripts, and outputs. This organization improves readability, maintainability, and ease of navigation.
+Make sure all required libraries are installed before execution.
 
-IX. User Notes and Requirements
 
-A basic understanding of Python and data analysis concepts is recommended to fully benefit from this project. The project is intended strictly for academic and educational purposes, and the results should not be interpreted as medical advice.
+## IV. Assumptions and Design Decisions
 
-Conclusion
+Several assumptions guide this project. Missing values are handled using appropriate statistical methods, and outliers are treated based on their potential impact on analysis results. Feature selection focuses on variables relevant to diabetes risk, and transformations are applied to improve interpretability.
 
-This analysis identifies that Body Mass Index (BMI), blood pressure, cholesterol, glucose levels, physical activity, diet, smoking habits, age, and socioeconomic factors are closely associated with diabetes risk. These results highlight the key health and lifestyle factors influencing diabetes in this dataset. They are intended for illustrative and academic purposes and do not imply causation.
+The analysis relies on exploratory data analysis, descriptive statistics, and visualizations. It is assumed that the dataset is representative of the studied population. Observed relationships indicate associations and do not imply causation. The results are intended for academic and illustrative purposes.
+
+
+## Conclusion
+
+Overall,Body Mass Index (BMI), blood pressure, cholesterol, glucose levels, physical activity, diet, smoking habits, age, and socioeconomic factors are associated with diabetes risk. These findings highlight the main health and lifestyle variables influencing diabetes within the dataset. The results are illustrative and do not imply causation.
