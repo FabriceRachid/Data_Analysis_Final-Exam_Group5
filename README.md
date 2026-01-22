@@ -42,4 +42,4 @@ A basic understanding of Python and data analysis concepts is recommended to ful
 
 Conclusion
 
-This project demonstrates how data analysis techniques can be applied to better understand factors associated with diabetes. Through data cleaning, exploratory analysis, feature engineering, and visualization, meaningful patterns related to health, lifestyle, and demographic variables were identified. Although the findings provide valuable insights, they are limited to the scope and quality of the available dataset and do not imply causation. Overall, the project highlights the importance of data-driven approaches in health-related studies and serves as a practical academic exercise in applied data analytics.
+This analysis identifies that BMI, blood pressure, cholesterol, glucose levels, physical activity, diet, smoking habits, age, and socioeconomic factors are associated with diabetes risk. These findings directly answer the research question by highlighting the main health and lifestyle factors contributing to diabetes in this dataset. Results are illustrative for academic purposes and do not imply causation.
