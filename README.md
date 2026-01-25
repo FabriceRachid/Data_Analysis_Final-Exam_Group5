@@ -32,11 +32,7 @@ The project is developed and executed using **Visual Studio Code**. All analyses
 pip install -r requirements.txt
 ```
 
-5. Run the main Python script:
-
-```bash
-python main.py
-```
+5. Run the main Jupyter Notebook file script:
 
 Make sure all required libraries are installed before execution.
 
